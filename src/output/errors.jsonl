@@ -1,0 +1,4 @@
+{"type":"system_error","timestamp":"2025-05-01T12:15:00.000Z","level":"warning","message":"Disk usage exceeded 90%"}
+{"type":"system_error","timestamp":"2025-05-01T12:16:00.000Z","level":"critical","message":"System failure"}
+{"type":"system_error","timestamp":"2025-05-01T12:18:00.000Z","level":"info","message":""}
+{"type":"system_error","timestamp":"2025-05-01T12:19:00.000Z","level":"info","message":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"}

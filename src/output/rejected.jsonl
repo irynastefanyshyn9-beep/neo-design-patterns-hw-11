@@ -1,0 +1,10 @@
+{"record":{"type":"access_log","timestamp":"2025-05-01T12:02:00Z","userId":" ","ip":"10.0.0.3"},"error":"Invalid userId"}
+{"record":{"type":"access_log","timestamp":"2025-05-01T12:03:00Z","userId":"user-789","ip":"not-an-ip"},"error":"Invalid IP address"}
+{"record":{"type":"access_log","userId":"user-000","ip":"192.168.0.4"},"error":"Missing required field 'timestamp'"}
+{"record":{"type":"transaction","amount":"not-a-number","currency":"usd","timestamp":"2025-05-01T12:13:00Z"},"error":"Invalid amount"}
+{"record":{"type":"transaction","amount":"100.00","currency":"","timestamp":"2025-05-01T12:14:00Z"},"error":"Invalid currency"}
+{"record":{"type":"transaction","amount":"100.00","currency":"usd","timestamp":"not-a-date"},"error":"Invalid timestamp format"}
+{"record":{"type":"transaction","amount":"100.00","currency":"usd"},"error":"Missing required field 'timestamp'"}
+{"record":{"type":"system_error","timestamp":"2025-05-01T12:17:00Z","level":"fatal","message":"Unknown error"},"error":"Invalid level: 'fatal'"}
+{"record":{"type":"system_error","level":"info","message":"No timestamp"},"error":"Missing required field 'timestamp'"}
+{"record":{"type":"system_error","timestamp":"2025-05-01T12:20:00Z","level":"info"},"error":"Missing required field 'message'"}

@@ -1,0 +1,14 @@
+[
+  {
+    "type": "access_log",
+    "timestamp": "2025-05-01T12:00:00.000Z",
+    "userId": "user-123",
+    "ip": "192.168.0.1"
+  },
+  {
+    "type": "access_log",
+    "timestamp": "2025-05-01T12:01:00.000Z",
+    "userId": "user-456",
+    "ip": "10.0.0.2"
+  }
+]
